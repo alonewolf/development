@@ -10,3 +10,7 @@
 	path = media
 	url = git@github.com:camfire/media.git
 	branch = develop
+[submodule "web"]
+	path = web
+	url = git@github.com:camfire/web.git
+	branch = develop
