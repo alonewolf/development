@@ -1,0 +1,8 @@
+[submodule "signaling"]
+	path = signaling
+	url = git@github.com:camfire/signaling.git
+	branch = develop
+[submodule "ansible/signaling"]
+	path = ansible/signaling
+	url = git@github.com:camfire/ansible-playbook-signaling.git
+	branch = develop
