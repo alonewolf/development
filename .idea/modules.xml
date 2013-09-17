@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ansible/ansible.iml" filepath="$PROJECT_DIR$/ansible/ansible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/camfire-signaling.iml" filepath="$PROJECT_DIR$/signaling/camfire-signaling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/project/camfire-signaling-build.iml" filepath="$PROJECT_DIR$/signaling/project/camfire-signaling-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/session-management/session-management.iml" filepath="$PROJECT_DIR$/signaling/session-management/session-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/session-management/project/session-management-build.iml" filepath="$PROJECT_DIR$/signaling/session-management/project/session-management-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/signaling-server/signaling-server.iml" filepath="$PROJECT_DIR$/signaling/signaling-server/signaling-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/signaling-server/project/signaling-server-build.iml" filepath="$PROJECT_DIR$/signaling/signaling-server/project/signaling-server-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/webrtc-jackson-serialization/webrtc-jackson-serialization.iml" filepath="$PROJECT_DIR$/signaling/webrtc-jackson-serialization/webrtc-jackson-serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signaling/webrtc-jackson-serialization/project/webrtc-jackson-serialization-build.iml" filepath="$PROJECT_DIR$/signaling/webrtc-jackson-serialization/project/webrtc-jackson-serialization-build.iml" />
+    </modules>
+  </component>
+</project>
+
