@@ -6,3 +6,7 @@
 	path = ansible/signaling
 	url = git@github.com:camfire/ansible-playbook-signaling.git
 	branch = develop
+[submodule "media"]
+	path = media
+	url = git@github.com:camfire/media.git
+	branch = develop
