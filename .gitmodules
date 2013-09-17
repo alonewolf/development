@@ -14,3 +14,6 @@
 	path = web
 	url = git@github.com:camfire/web.git
 	branch = develop
+[submodule "libjingle"]
+	path = libjingle
+	url = git@github.com:camfire/libjingle.git
