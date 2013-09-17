@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/signaling/session-management/project/session-management-build.iml" filepath="$PROJECT_DIR$/signaling/session-management/project/session-management-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/signaling/signaling-server/signaling-server.iml" filepath="$PROJECT_DIR$/signaling/signaling-server/signaling-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/signaling/signaling-server/project/signaling-server-build.iml" filepath="$PROJECT_DIR$/signaling/signaling-server/project/signaling-server-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
       <module fileurl="file://$PROJECT_DIR$/signaling/webrtc-jackson-serialization/webrtc-jackson-serialization.iml" filepath="$PROJECT_DIR$/signaling/webrtc-jackson-serialization/webrtc-jackson-serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/signaling/webrtc-jackson-serialization/project/webrtc-jackson-serialization-build.iml" filepath="$PROJECT_DIR$/signaling/webrtc-jackson-serialization/project/webrtc-jackson-serialization-build.iml" />
     </modules>
