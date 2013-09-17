@@ -17,3 +17,4 @@
 [submodule "libjingle"]
 	path = libjingle
 	url = git@github.com:camfire/libjingle.git
+	branch = develop
