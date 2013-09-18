@@ -24,6 +24,7 @@ https://github.com/camfire/libjingle/commits/develop/talk
 
 ### Compiling
 `cd libjingle`
+
 `gclient sync --force`
 
 #### Using ninja (This is what I do)
