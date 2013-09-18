@@ -23,17 +23,23 @@ Check my commits on this project to see what I actually changed:
 https://github.com/camfire/libjingle/commits/develop/talk
 
 ### Compiling
-`cd libjingle`
 
-`gclient sync --force`
+    cd libjingle
+
+    gclient sync --force
 
 #### Using ninja (This is what I do)
-`GYP_GENERATORS=ninja GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force`
-`ninja -C out/Debug libjingle_peerconnection_jar`
+
+    GYP_GENERATORS=ninja GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force
+
+    ninja -C out/Debug libjingle_peerconnection_jar
 
 #### Using xcode
-`GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force`
-`open talk/libjingle_all.xcodeproj/`
+
+    GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force
+
+    open talk/libjingle_all.xcodeproj/
 
 #### Updating project
+
 `gclient runhooks --force`
