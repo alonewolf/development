@@ -1,9 +1,26 @@
-# camfire
+# camfire for development
 
-A server-based WebRTC video streaming solution. The main goal is to make a scalable, plugin-less, browser-based, real-time, streaming architecture. Users connect to a Ruby on Rails/AngularJS application that interacts with a signaling server through WebSockets in which messages are exchanged bidirectionally. Users can broadcast video streams through the server, making them available for others using the system. Benefits include:
+## What is camfire?
+
+Camfire is a server-based WebRTC video streaming solution. The main goal is to
+make a scalable, plugin-less, browser-based, real-time, streaming architecture.
+Users connect to a Ruby on Rails/AngularJS application that interacts with a
+signaling server through WebSockets in which messages are exchanged
+bidirectionally. Users can broadcast video streams through the server, making
+them available for others using the system. Benefits include:
 
 * Users are not limited by their own bandwidth when making video streams available to a larger audience;
 * Users have better security, since they do not connect directly to each other.
+
+## What is this repository?
+
+This repository contains all the code necessary to develop camfire. You
+probably don't want all this stuff if you're just trying to run camfire in a
+production environment. Ideally, you'd be running the
+[signalling server](https://github.com/camfire/signaling) on an
+independent server, [web](https://github.com/camfire/web) on a separate server,
+and the [media server](https://github.com/camfire/media) which is not yet ready
+for deployment.
 
 ## Instructions
 
