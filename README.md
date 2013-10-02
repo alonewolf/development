@@ -68,6 +68,19 @@ Install gclient by following [Google's instructions](http://www.chromium.org/dev
 
     cd libjingle
     gclient sync --force
+    
+This may take a while. Sample output:
+
+    $ gclient sync --force
+    1>________ running 'git clone --progress -b master https://github.com/camfire/libjingle.git /Users/me/code/camfire/libjingle/trunk' in '/Users/me/code/camfire/libjingle'
+    1>Cloning into '/Users/me/code/camfire/libjingle/trunk'...
+    1>remote: Counting objects: 9723, done.
+    1>remote: Compressing objects:   0% (1/1614)
+    1>remote: Compressing objects:  10% (162/1614)
+    1>remote: Compressing objects:  20% (323/1614)
+    1>remote: Compressing objects:  30% (485/1614)
+    ...
+
 
 #### Using ninja (my technique)
 

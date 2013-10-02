@@ -67,3 +67,7 @@ out
 
 # paulp script
 /.lib/
+
+# libjingle
+libjingle/chromium_deps/DEPS
+libjingle/trunk/
