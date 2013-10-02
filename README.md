@@ -7,12 +7,14 @@ A server-based WebRTC video streaming solution. The main goal is to make a scala
 
 ## Instructions
 
-Quickly get camfire up and running for development.
+Clone this repository recursively to get all its submodules:
 
-1. Clone this repository, e.g., `git clone git@github.com:camfire/development.git camfire`
-2. `cd camfire` or wherever you cloned this repository.
-2. `git submodule init`
-3. `git submodule update`
+`git clone git@github.com:camfire/development.git camfire --recursive`
+
+If you have already cloned the repository normally, do the following to get all the submodule code:
+
+1. `cd camfire` or wherever you cloned the repository.
+2. `git submodule init && git submodule update`
 
 ## libjingle
 
