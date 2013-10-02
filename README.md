@@ -47,7 +47,24 @@ There are likely some memory leaks that still need to get cleaned up!
 
 [Look at my commits on this project](https://github.com/camfire/libjingle/commits/develop/talk) to see what I actually changed.
 
-### Compiling libjingle
+### Install gclient
+
+#### Using zsh with Oh My Zsh
+
+1. If you are using [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh), clone the `git@github.com:jgrowl/depot_tools.git`
+    repository into your zsh plugins directory. Your plugins directory is
+    possibly located at a path like ~/.dotfiles/oh-my-zsh/custom/plugins.
+2. Edit your .zshrc file, possibly at ~/.dotfiles/zshrc. Add to your plugins list by including `depot_tools`: `plugins=(git brew gem svn depot_tools)`
+3. In a new term, you should now have gclient:
+        
+        $ which gclient
+        /Users/me/.oh-my-zsh/custom/plugins/depot_tools/depot_tools/gclient
+
+#### Not using zsh
+
+Install gclient by following [Google's instructions](http://www.chromium.org/developers/how-tos/install-depot-tools).
+
+### Compile libjingle
 
     cd libjingle
     gclient sync --force
